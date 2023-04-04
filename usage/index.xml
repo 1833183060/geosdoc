@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usage on GEOS</title>
+    <link>https://libgeos.org/usage/</link>
+    <description>Recent content in Usage on GEOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Oct 2021 14:21:00 -0700</lastBuildDate><atom:link href="https://libgeos.org/usage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API Docs</title>
+      <link>https://libgeos.org/usage/doxygen/</link>
+      <pubDate>Mon, 04 Oct 2021 13:44:59 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/doxygen/</guid>
+      <description>The Doxygen documentation is the most up-to-date reference for the C and C++ API of GEOS.
+C API C++ API See also:
+C API tutorial C++ API tutorial. Code examples are available in the code repository.</description>
+    </item>
+    
+    <item>
+      <title>C API Programming</title>
+      <link>https://libgeos.org/usage/c_api/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/c_api/</guid>
+      <description>Most programs using GEOS use the C API, rather than building against the C++ headers. The C API offers several benefits:
+Stable API, that preserves behaviour and function naming over multiple releases. Stable ABI, allowing new binaries to be dropped into place without requiring a rebuild of dependent applications. Simple access pattern, using the simple features model as the basis for most operations. In exchange for this simplicity and stability, the C API has a few requirements from application authors:</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43; API Programming</title>
+      <link>https://libgeos.org/usage/cpp_api/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/cpp_api/</guid>
+      <description>The GEOS C++ API is included in the collection of header files installed in include/geos which is a very large collection. Effectively it includes both &amp;ldquo;public&amp;rdquo; headers that a user might be expected to make use of and &amp;ldquo;private&amp;rdquo; headers that are mostly only used by internal algorithms. Currently, the two kinds of headers are not marked in any way, nor is there an easy way to disentagle them.
+You can explore the C++ model via the Doxygen reference.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://libgeos.org/usage/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/tools/</guid>
+      <description>GeosOp Usage JTS TestBuilder GeosOp geosop is a CLI (command-line interface) for GEOS. It can be used to:
+Run GEOS operations on one or many geometries Output geometry resuls in various formats (WKT and WKB) Convert between WKT and WKB Time the performance of operations Check for memory leaks in operations Check the semantics of GEOS operations For more information see the README.
+Usage The geosop executable is in bin.</description>
+    </item>
+    
+    <item>
+      <title>Bindings</title>
+      <link>https://libgeos.org/usage/bindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/bindings/</guid>
+      <description>GEOS can be accessed from a variety of other languages via bindings to the library.
+Go gogeos Haskell geos hgeos Javascript node-geos Julia LibGEOS.jl PHP php-geos. GeoPHP. Python Python bindings are available via:
+Shapely PyGEOS Calling functions from libgeos_c via Python ctypes GeoPandas R sf geos Ruby RGeo. Rust geos crate Swift GeoSwift Geospatial applications using GEOS include:
+Databases PostGIS INGRES MonetDB SpatiaLite CockroachDB Applications GDAL/OGR GRASS GIS MapServer MapGuide Open Source MapWindow GIS osgEarth QGIS </description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://libgeos.org/usage/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/faq/</guid>
+      <description>Design and Architecture Why is the C++ API not kept stable? Why does GEOS follow JTS design? Spatial Model Does GEOS support computation on the geodetic ellipsoid? Does GEOS support coordinates with measures (M)? Robustness Why does GEOSIntersects(GEOSIntersection(A, B), A) == false? Why doesn&amp;rsquo;t a computed point lie exactly on a line? Design and Architecture Why is the C++ API not kept stable? The C++ API is very large, and may have changes in every release.</description>
+    </item>
+    
+    <item>
+      <title>Install Packages</title>
+      <link>https://libgeos.org/usage/install/</link>
+      <pubDate>Mon, 04 Oct 2021 13:44:59 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/install/</guid>
+      <description>Red Hat Ubuntu Debian Amazon Linux Homebrew Macports Red Hat There is a GEOS package in the EPEL (Extra Packages for Enterprise Linux) repository.
+# Add the EPEL repository yum -y install epel-release # Install the GEOS runtime and development packages rpm -Uvh geos geos-devel Ubuntu The Ubuntu GIS project maintains a collection of repositories with builds of common open source geospatial projects, including GEOS.
+# Add the Ubuntu GIS PPA sudo apt-get install python-software-properties sudo add-apt-repository ppa:ubuntugis/ppa # Install the packages sudo apt-get install geos Debian The Debian GIS project maintains GEOS packages and pushes them into the appropriate Debian respositories.</description>
+    </item>
+    
+    <item>
+      <title>Download and Build</title>
+      <link>https://libgeos.org/usage/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/download/</guid>
+      <description>Download Project Release Release Date First Release Final Release Download Link Changes 3.11.2 2023/03/16 2022/07/01 2026/07/01 geos-3.11.2.tar.bz2 Changes 3.10.5 2023/03/16 2021/10/20 2025/10/20 geos-3.10.5.tar.bz2 Changes 3.9.4 2022/11/14 2020/12/09 2024/12/09 geos-3.9.4.tar.bz2 Changes 3.8.3 2022/06/02 2019/10/10 2023/10/10 geos-3.8.3.tar.bz2 Changes 3.7.5 2022/06/08 2018/09/10 2023/03/31 geos-3.7.5.tar.bz2 Changes 3.6.6 EOL 2023/01/27 2016/10/25 2023/01/27 geos-3.6.6.tar.bz2 Changes 3.5.2 EOL 2019/10/04 2015/08/16 2019/10/04 geos-3.5.2.tar.bz2 Changes If you see EOL next to a released version, it means no security or patch updates will be added to that minor and you should upgrade to a higher release.</description>
+    </item>
+    
+  </channel>
+</rss>

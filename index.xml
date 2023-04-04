@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GEOS</title>
+    <link>https://libgeos.org/</link>
+    <description>Recent content on GEOS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Oct 2021 14:13:20 -0700</lastBuildDate><atom:link href="https://libgeos.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GEOS RFC 11 - GEOS Version and EOL Policy</title>
+      <link>https://libgeos.org/project/rfcs/rfc11/</link>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 -0400</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc11/</guid>
+      <description>RFC 11 End-of-Life (EOL) Policy Author Regina Obe Contact lr@pcorp.us Status Accepted, September 20, 2022 This document describes the GEOS project policy for versioning and EOLing GEOS minor versions.
+Versioning The GEOS project generally produces a new minor version every 1-2 years. Minor versions typically contain new features, as well as bug fixes and performance improvements. Minor versions have version numbers in the form major.minor (e.g. 3.9, 3.10, 3.11, etc).</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 10 - Move Project to GitHub</title>
+      <link>https://libgeos.org/project/rfcs/rfc10/</link>
+      <pubDate>Fri, 29 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc10/</guid>
+      <description>RFC 10 Move Project to GitHub Author Paul Ramsey Contact pramsey@cleverelephant.ca Status Accepted, November 9, 2021 GitHub has been the largest source of 3rd party code contribution via pull-requests for some time now.
+Moving to Github has the following components:
+Move the canonical (writeable) repository to GitHub Migrate the (current, useful) contents of the Trac wiki to the new web framework Deleting the migrated and out-of-date contents of the Trac wiki Switching the Trac tickets to read-only Web scraping the Trac ticket contents and placing in a geos-old-tickets repo At that point:</description>
+    </item>
+    
+    <item>
+      <title>Testing</title>
+      <link>https://libgeos.org/project/development/tests/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/development/tests/</guid>
+      <description>Testing executables are in bin
+See also the ctest documentation. Unit Tests The GEOS unit tests are written using the TUT framework. There are tests for both the C++ code and the C API. The test source files are in the test/unit directory. The test group names are in the group declaration in each XXXTest.cpp file. By convention the test group name is based on the test file path and name.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://libgeos.org/project/coc/</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/coc/</guid>
+      <description>Introduction This code of conduct governs how we behave in any GEOS forum or event and whenever we will be judged by our actions. We expect it to be honored by everyone who participates in the GEOS community formally or informally, or claims any affiliation with the GEOS project.
+It applies to in-person events (such as conferences and related social events), IRC, public and private mailing lists, the issue tracker, the wiki, blogs, Twitter, and any other forums which the community uses for communication and interactions.</description>
+    </item>
+    
+    <item>
+      <title>Project Steering Committee</title>
+      <link>https://libgeos.org/project/psc/</link>
+      <pubDate>Wed, 27 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/psc/</guid>
+      <description>The GEOS project is run by a Project Steering Committee made up of developers and contributors to the project and is a project of OSGeo. Major project decisions are made via a Request for Comments (RFC) process, where proposals are first documented and then voted on by the steering committee.
+This PSC list is valid as of February 18th, 2022.
+Dan Baston Howard Butler Martin Davis Regina Obe Paul Ramsey (chair) Sandro Santilli The PSC approves major changes and RFC documents.</description>
+    </item>
+    
+    <item>
+      <title>API Docs</title>
+      <link>https://libgeos.org/usage/doxygen/</link>
+      <pubDate>Mon, 04 Oct 2021 13:44:59 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/doxygen/</guid>
+      <description>The Doxygen documentation is the most up-to-date reference for the C and C++ API of GEOS.
+C API C++ API See also:
+C API tutorial C++ API tutorial. Code examples are available in the code repository.</description>
+    </item>
+    
+    <item>
+      <title>C API Programming</title>
+      <link>https://libgeos.org/usage/c_api/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/c_api/</guid>
+      <description>Most programs using GEOS use the C API, rather than building against the C++ headers. The C API offers several benefits:
+Stable API, that preserves behaviour and function naming over multiple releases. Stable ABI, allowing new binaries to be dropped into place without requiring a rebuild of dependent applications. Simple access pattern, using the simple features model as the basis for most operations. In exchange for this simplicity and stability, the C API has a few requirements from application authors:</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43; API Programming</title>
+      <link>https://libgeos.org/usage/cpp_api/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/cpp_api/</guid>
+      <description>The GEOS C++ API is included in the collection of header files installed in include/geos which is a very large collection. Effectively it includes both &amp;ldquo;public&amp;rdquo; headers that a user might be expected to make use of and &amp;ldquo;private&amp;rdquo; headers that are mostly only used by internal algorithms. Currently, the two kinds of headers are not marked in any way, nor is there an easy way to disentagle them.
+You can explore the C++ model via the Doxygen reference.</description>
+    </item>
+    
+    <item>
+      <title>CI Status</title>
+      <link>https://libgeos.org/project/development/ci_status/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/development/ci_status/</guid>
+      <description>CI main 3.11 3.10 3.9 3.8 3.7 GitHub GitLab Debbie Winnie Dronie Bessie Bessie32 Berrie Berrie64 Runners GitHub - Ubuntu various, Windows various, CMake GitLab - Debian 8.2, GNU/Linux 64bit, GCC, automake Debbie - Debian sid (bullseye), GNU/Linux 64bit, GCC Debian 10.2.1, cmake (3.18.4) &amp;gt;= 3.9, autotools &amp;lt; 3.8 Winnie - Windows Mingw64, 32bit GCC 8.1.0, 64bit GCC 8.1.0, MSys CMake (3.21.3) Dronie - Alpine Linux 3.14 (alpine.latest), 64bit, GCC 10.</description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://libgeos.org/usage/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/tools/</guid>
+      <description>GeosOp Usage JTS TestBuilder GeosOp geosop is a CLI (command-line interface) for GEOS. It can be used to:
+Run GEOS operations on one or many geometries Output geometry resuls in various formats (WKT and WKB) Convert between WKT and WKB Time the performance of operations Check for memory leaks in operations Check the semantics of GEOS operations For more information see the README.
+Usage The geosop executable is in bin.</description>
+    </item>
+    
+    <item>
+      <title>Bindings</title>
+      <link>https://libgeos.org/usage/bindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/bindings/</guid>
+      <description>GEOS can be accessed from a variety of other languages via bindings to the library.
+Go gogeos Haskell geos hgeos Javascript node-geos Julia LibGEOS.jl PHP php-geos. GeoPHP. Python Python bindings are available via:
+Shapely PyGEOS Calling functions from libgeos_c via Python ctypes GeoPandas R sf geos Ruby RGeo. Rust geos crate Swift GeoSwift Geospatial applications using GEOS include:
+Databases PostGIS INGRES MonetDB SpatiaLite CockroachDB Applications GDAL/OGR GRASS GIS MapServer MapGuide Open Source MapWindow GIS osgEarth QGIS </description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://libgeos.org/usage/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/faq/</guid>
+      <description>Design and Architecture Why is the C++ API not kept stable? Why does GEOS follow JTS design? Spatial Model Does GEOS support computation on the geodetic ellipsoid? Does GEOS support coordinates with measures (M)? Robustness Why does GEOSIntersects(GEOSIntersection(A, B), A) == false? Why doesn&amp;rsquo;t a computed point lie exactly on a line? Design and Architecture Why is the C++ API not kept stable? The C++ API is very large, and may have changes in every release.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.11.2</title>
+      <link>https://libgeos.org/posts/2023-03-16-geos-3-11-2-released/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/posts/2023-03-16-geos-3-11-2-released/</guid>
+      <description>As part of a batch release of patches for stable branches, the 3.11.2 release of GEOS is now available to download.
+Release notes for the various branches are available: 3.10.5, and 3.11.2
+The 3.11.2 release is a bug fix release.
+GEOSIntersection: Fix FE_INVALID exception on intersection of disjoint geometries (GH-791, Joris Van den Bossche &amp;amp; Dan Baston) Fix incorrect result from Envelope::disjoint (GH-791, Dan Baston) Fix handling of odd cases in PolygonHoleJoiner (JTS-946, Paul Ramsey, Martin Davis) Support gcc-13 (GH-743, Sergei Trofimovich) Disallow Inf envelopes in Quadtree, avoid inf loop (Paul Ramsey) GEOSUnaryUnion: Fix crash on collection containing empty point (GH-830, Dan Baston) GEOSSTRtree_iterate: Do not return removed items (GH-833, Dan Baston) IndexedFacetDistance: Fix crash with Inf coordinates (GH-821, Dan Baston) HausdorffDistance: Fix crash on collection containing empty point (GH-840, Dan Baston) MaximumInscribedCircle: Fix infinite loop with non-finite coordinates (GH-843, Dan Baston) DistanceOp: Fix crash on collection containing empty point (GH-842, Dan Baston) Guard against non-finite distances in Buffer/OffsetCurve (GH-661, Paul Ramsey) </description>
+    </item>
+    
+    <item>
+      <title>Version 3.11.1</title>
+      <link>https://libgeos.org/posts/2022-11-14-geos-3-11-1-released/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/posts/2022-11-14-geos-3-11-1-released/</guid>
+      <description>As part of a batch release of patches for stable branches, the 3.11.1 release of GEOS is now available to download.
+Release notes for the various branches are available: 3.9.4, 3.10.4, and 3.11.1
+The 3.11.1 release is a bug fix release.
+Remove spurious version from &amp;ndash;libs geos-config options Fix PreparedGeometry to avoid crashes with EMPTY elements in input (GH-678, Martin Davis) Fix LineSegment.orientationIndex(LineSegment) (GH-699, Martin Davis) Fix DepthSegment comparison operation (GH-707, Martin Davis) Add OverlayNG support for simple GeometryCollection inputs (GH-716, Martin Davis) Fix TopologyPreservingSimplifier to produce stable results for Multi inputs (GH-718) Fix WKB hex endian test (GH-720, Paul Ramsey) Improve ConvexHull radial sort robustness (GH-724, Martin Davis) Use more robust Delaunay Triangulation frame size heuristic (GH-728, Martin Davis) Fix crash in GEOSIntersects with empty point inputs (GH-673, Dan Baston) Fix RelateOp for empty geometry and closed linear geometry (TRAC-1096, Dan Baston) Return 2D result on 2D input to GeometryPrecisionReducer (TRAC-1137, Dan Baston) </description>
+    </item>
+    
+    <item>
+      <title>Version 3.11.0</title>
+      <link>https://libgeos.org/posts/2022-07-01-geos-3-11-0-released/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/posts/2022-07-01-geos-3-11-0-released/</guid>
+      <description>The 3.11.0 release of GEOS is now available to download.
+This release includes new features for building &amp;ldquo;concave hulls&amp;rdquo; for both point and polygon input. For polygon input, the hull will be guaranteed to not cross into the interiors of the input polygons.
+The line merger has been enhanced to support a mode that only merges lines which share orientation.
+The offset curve algorithm has been updated to be more reliable for different kinds of semi-degenerate inputs, and may output different curves than the previous implementation, for those kinds of inputs.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.10.3</title>
+      <link>https://libgeos.org/posts/2022-06-03-geos-3-10-3-released/</link>
+      <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/posts/2022-06-03-geos-3-10-3-released/</guid>
+      <description>As part of a batch release of patches for all stable branches, the 3.10.3 release of GEOS is now available to download.
+Release notes for the various branches are available: 3.7.4, 3.8.3, 3.9.3 and 3.10.3.
+The 3.10.3 release is a bug fix release.
+VoronoiDiagramBuilder::setSites(const CoordinateSequence&amp;amp;) return sorted (GH-551) Add SnappingNoder seeding (Martin Davis) Fix RelateOp (and intersects predicate) for lines with intersections very near boundary (GH-570, Martin Davis) Fix segfault in Hausdorff distance with empty geometries (GH-569) Fix inf loop in PolygonTriangulator (GH-574, Andrew Stelter) Fix short circuit from TemplateSTRtree query (GH-577, Andrew Stelter) Fix IsValidOp to handle repeated node points (JTS-845, Martin Davis) Fix IsSimpleOp to handle closed LineStrings with repeated endpoints (JTS-851, Martin Davis) Add OverlayNG area check heuristic (JTS-812, Paul Ramsey) Improve test_geos_unit application error checking and reporting (Martin Davis) Fix LengthIndexedLine (via LengthLocationMap fix) (JTS-859, Martin Davis) Fix PolygonHoleJoiner (JTS-862, Martin Davis) Fix crash in GeometryNoder on empty intpu (GH-601, Paul Ramsey) Handle case where user sets explicit absolute lib and include dirs (GH-608, Paul Ramsey) Fix MinimumDiameter getMinimumRectangle for flat input (JTS-875, Martin Davis) Fix HilbertEncoder difference in ARM vs x64 (GH-579, Paul Ramsey) Fix BufferOp inverted ring check (JTS-878, Martin Davis) </description>
+    </item>
+    
+    <item>
+      <title>Version 3.10.2</title>
+      <link>https://libgeos.org/posts/2021-11-02-geos-3-10-2-released/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/posts/2021-11-02-geos-3-10-2-released/</guid>
+      <description>The 3.10.2 release of GEOS is now available to download.
+This release is a bug fix release.
+Fix crash in MonotoneChain with empty CoordinateSequence (GH-539, Sandro Santilli) Fix crash in GeoJSONWriter in case of empty points (TRAC-1139, Paul Ramsey) Improve BuildArea performance (TRAC-1122, Sandro Santilli) Fix unaryUnion to avoid segfault with empty polygon (GH-501, Mike Taves) Fix memory leak on exception in prepared geometry (GH-506, Dan Baston) Iterator invalidation in rare cases (GH-508, Momtchil Momtchev) Infinite loop on collapsed input to MaximumInscribedCircle (Paul Ramsey) Write LinearRing to GeoJSON as LineString (TRAC-1140, Paul Ramsey) Fix PolygonEarClipper to handle collapsed corners (GH-526, Martin Davis) Fix GEOSSTRtree_remove for empty tree (GH-544, Dan Baston) Fix crash on query of STRtree with removed items (GH-545, Dan Baston)q </description>
+    </item>
+    
+    <item>
+      <title>Version 3.10.1</title>
+      <link>https://libgeos.org/posts/2021-11-02-geos-3-10-1-released/</link>
+      <pubDate>Tue, 02 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/posts/2021-11-02-geos-3-10-1-released/</guid>
+      <description>The 3.10.1 release of GEOS is now available to download.
+This release is primarily to fix some version numbering issues in the initial 3.10.0 source tarball. Some extra fixes are bundled as well.
+Fixes a mistake in constants used to select WKB flavor in C API Fixes a crash when reducing precision on a LinearRing Fixes GeoJSON crash on invalid input Uses std::sqrt exclusively, to support the Solaris build Fixes mistaken version numbers in some parts of 3.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.10.0</title>
+      <link>https://libgeos.org/posts/2021-10-01-geos-3-10-released/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/posts/2021-10-01-geos-3-10-released/</guid>
+      <description>The 3.10 release of GEOS is now available to download.
+This release includes the following new features in the C API (and of course underlying changes to the C++ code to support these features):
+CAPI additions for testing whether geometries are within a distance of each other, GEOSDistanceWithin and GEOSPreparedDistanceWithin CAPI addition for adding extra vertices to a geometry, GEOSDensify CAPI additions for high-performance construction/reading of coordinate sequences from/to memory buffers, GEOSCoordSeq_copyFromArrays, GEOSCoordSeq_copyFromBuffer, GEOSCoordSeq_copyToArrays, and GEOSCoordSeq_copyToBuffer CAPI addition for new validity enforement algorithm, GEOSMakeValidWithParams CAPI addition for ISO WKB output, GEOSWKBWriter_getFlavor and GEOSWKBWriter_setFlavor CAPI addition to create a constrained delaunay of polygonal input, GEOSConstrainedDelaunayTriangulation There is a new utility for running arbitrary GEOS commands against input files, geosop.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 1 - Project Steering Committee</title>
+      <link>https://libgeos.org/project/rfcs/rfc01/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc01/</guid>
+      <description>This document describes how the PSC GEOS Project Steering Committee determines membership, and makes decisions on all aspects of the GEOS project - both technical and non-technical.
+RFC 1 Project Steering Committee Author Paul Ramsey Contact pramsey@cleverelephant.ca Status Approved, April 10, 2008 Summary This document describes how the GEOS Project Steering Committee (PSC) determines membership, and makes decisions on all aspects of the GEOS project - both technical and non-technical.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 2 - Committer Guidelines </title>
+      <link>https://libgeos.org/project/rfcs/rfc02/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc02/</guid>
+      <description>This document describes the technical and legal responsibilities of [wiki:PSC GEOS committers].
+RFC 2 Committer Guidelines Author Paul Ramsey, Regina Obe Contact pramsey@cleverelephant.ca, lr@pcorp.us Status Draft Summary This document describes the technical and legal responsibilities of [wiki:PSC GEOS committers].
+Election to GIT Commit Access Permission for GIT commit access shall be provided to new developers only if accepted by the [wiki:PSC GEOS Project Steering Committee]. A proposal should be written to the PSC for new committers and voted on normally.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 3 - Thread Safe CAPI </title>
+      <link>https://libgeos.org/project/rfcs/rfc03/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc03/</guid>
+      <description>Summary The current CAPI in GEOS is not thread safe. The error handling and initialization/finalization process specifically can cause problems.
+Definitions (As defined by Frank Warmerdam in http://trac.osgeo.org/gdal/wiki/rfc16_ogr_reentrancy)
+Reentrant: A reentrant function can be called simultaneously by multiple threads provided that each invocation of the function references unique data.
+Thread-safe: A thread-safe function can be called simultaneously by multiple threads when each invocation references shared data. All access to the shared data is serialized.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 4 - Code Formatting Style</title>
+      <link>https://libgeos.org/project/rfcs/rfc04/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc04/</guid>
+      <description>This document proposes and describes desired code formatting style used across C/C++ source code in GEOS.
+RFC 4 Code Formatting Style Author Mateusz Łoskot Contact mateusz@loskot.net Status Dropped (no agreement) Summary The document proposes and describes desired default code formatting style guidelines for GEOS programming in C and C++ languages.
+The goal of this document is to initiate process to reach an agreement for the default code formatting style.
+Motivation There is a need to decide on format of GEOS source code and apply such globally consistent format to GEOS C/C++ codebase.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 5 - C&#43;&#43;11 Compilation Mode</title>
+      <link>https://libgeos.org/project/rfcs/rfc05/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc05/</guid>
+      <description>This document proposes and describes desired code formatting style used across C/C++ source code in GEOS.
+RFC 5 C++11 Compilation Mode Author Mateusz Łoskot Contact mateusz@loskot.net Status Accepted (no agreement) Summary The document proposes to switch to C++11 compilation mode as default throughout the whole C++ source code of GEOS.
+The goal of the document is to request and achieve agreement on using C++11 as the minimum required version of the C++ programming language standard.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 6 - Require explicit configure to use the C&#43;&#43; API</title>
+      <link>https://libgeos.org/project/rfcs/rfc06/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc06/</guid>
+      <description>RFC 9 Require explicit configure to use the C++ API Author Regina Obe Contact lr@pcorp.us Status Not Passed Past discussions Trac ticket to deprecate another request to deprecate and osm2pgsql mess more examples about how apps linking directly to GEOS C++ causing problems for other applications Pointing out removing ability to use GEOS C++ reduces users freedoms
+Summary This document proposes to change the ./configure and CMake to by default only allow use of the C-API.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 7 - Use CMake for Build System</title>
+      <link>https://libgeos.org/project/rfcs/rfc07/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc07/</guid>
+      <description>RFC 7 Use CMake for build system Author Daniel Baston Contact dbaston@gmail.com Status Accepted, January 15, 2021 This document proposes to use CMake as the build system for GEOS and discontinue use of autotools and NMake.
+Since version 3.5, we have officially supported building GEOS with CMake: https://trac.osgeo.org/geos/wiki/BuildingOnUnixWithCMake
+GEOS is also required to build with autotools and NMake.
+Supporting three build systems:
+Decreases ease of contribution, because any change must be tested against all three build systems.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 8 - Improve Coordinate Sequence API (WIP)</title>
+      <link>https://libgeos.org/project/rfcs/rfc08/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc08/</guid>
+      <description>RFC 8 Improve Coordinate Sequence API Author Martin Davis Contact martin.davis@crunchydata.com Status In Discussion This document proposes to modify the Coordinate Sequence API to improve performance and adaptiveness.
+These improvements are (likely to be) breaking changes to the C++ API.
+These may require extensions to the C API to be externally available, but should not result in breaking the current C API.
+Background The Coordinate Sequence API as it stands imposes a large cost on clients.</description>
+    </item>
+    
+    <item>
+      <title>GEOS RFC 9 - Restore the C&#43;&#43; API (WIP)</title>
+      <link>https://libgeos.org/project/rfcs/rfc09/</link>
+      <pubDate>Mon, 04 Oct 2021 14:21:00 -0700</pubDate>
+      
+      <guid>https://libgeos.org/project/rfcs/rfc09/</guid>
+      <description>RFC 9 Restore the C++ API Author Mateusz Łoskot Contact mateusz@loskot.net Status [https://lists.osgeo.org/pipermail/geos-devel/2019-May/008972.html Proposed] The GEOS library is a C++ library offering two kinds of public API: C++ API and C API.
+The GEOS library started as a C++ library. The C API was introduced in version 2.2.
+The GEOS library has never promised any stability of the C++ API and this fact has always been documented and clearly stated:</description>
+    </item>
+    
+    <item>
+      <title>GeoJSON</title>
+      <link>https://libgeos.org/specifications/geojson/</link>
+      <pubDate>Mon, 04 Oct 2021 14:18:42 -0700</pubDate>
+      
+      <guid>https://libgeos.org/specifications/geojson/</guid>
+      <description>&amp;ldquo;GeoJSON&amp;rdquo; is a standard for structuring JSON when encoding geometry and features. By using GeoJSON, rather than some other arbitrary scheme for structuring JSON, you maximize the interoperability of your JSON output. There are dozens of tools and websites that happily consume and emit GeoJSON.
+The GeoJSON standard is formally maintained by the IETF as &amp;ldquo;RFC 7946&amp;rdquo;.
+Unlike WKB and WKT, GeoJSON does not restrict itself to just geometry representation. It also standardizes the transport of attribution.</description>
+    </item>
+    
+    <item>
+      <title>Well-Known Binary (WKB)</title>
+      <link>https://libgeos.org/specifications/wkb/</link>
+      <pubDate>Mon, 04 Oct 2021 14:18:42 -0700</pubDate>
+      
+      <guid>https://libgeos.org/specifications/wkb/</guid>
+      <description>&amp;ldquo;Well-known binary&amp;rdquo; is a scheme for writing a simple features geometry into a platform-independent array of bytes, usually for transport between systems or between programs. By using WKB, systems can avoid exposing their particular internal implementation of geometry storage, for greater overall interoperability.
+GEOS can read and write three &amp;ldquo;flavours&amp;rdquo; of WKB:
+Standard WKB Extended WKB ISO WKB When reading WKB, GEOS will transparently detect the flavour of WKB and automatically read it.</description>
+    </item>
+    
+    <item>
+      <title>Well-Known Text (WKT)</title>
+      <link>https://libgeos.org/specifications/wkt/</link>
+      <pubDate>Mon, 04 Oct 2021 14:18:42 -0700</pubDate>
+      
+      <guid>https://libgeos.org/specifications/wkt/</guid>
+      <description>&amp;ldquo;Well-known text&amp;rdquo; is a scheme for writing a simple features geometry into a standard text string.
+Examples POINT (0 0) POINT EMPTY LINESTRING (0 0, 0 1, 1 2) LINESTRING EMPTY POLYGON ((0 0, 1 0, 1 1, 0 1, 0 0)) POLYGON ((0 0, 4 0, 4 4, 0 4, 0 0), (1 1, 1 2, 2 2, 2 1, 1 1)) POLYGON EMPTY MULTIPOINT ((0 0), (1 1)) MULTILINESTRING ((0 0, 1 1), (2 2, 3 3)) MULTIPOLYGON (((1 1, 1 3, 3 3, 3 1, 1 1)), ((4 3, 6 3, 6 1, 4 1, 4 3))) GEOMETRYCOLLECTION (MULTIPOINT((0 0), (1 1)), POINT(3 4), LINESTRING(2 3, 3 4)) WKT BNF &amp;lt;x&amp;gt; ::= &amp;lt;number&amp;gt; &amp;lt;y&amp;gt; ::= &amp;lt;number&amp;gt; &amp;lt;z&amp;gt; ::= &amp;lt;number&amp;gt; &amp;lt;m&amp;gt; ::= &amp;lt;number&amp;gt; &amp;lt;empty set&amp;gt; ::= EMPTY &amp;lt;zm&amp;gt; ::= ZM | Z | M &amp;lt;comma&amp;gt; ::= , &amp;lt;left paren&amp;gt; ::= ( &amp;lt;right paren&amp;gt; ::= ) &amp;lt;point&amp;gt; ::= &amp;lt;x&amp;gt; &amp;lt;y&amp;gt; [ &amp;lt;z&amp;gt; ] [ &amp;lt;m&amp;gt; ] &amp;lt;point text&amp;gt; ::= &amp;lt;empty set&amp;gt; | &amp;lt;left paren&amp;gt; &amp;lt;point&amp;gt; &amp;lt;right paren&amp;gt; &amp;lt;linestring text&amp;gt; ::= &amp;lt;empty set&amp;gt; | &amp;lt;left paren&amp;gt; &amp;lt;point&amp;gt; {&amp;lt;comma&amp;gt; &amp;lt;point&amp;gt;} .</description>
+    </item>
+    
+    <item>
+      <title>Install Packages</title>
+      <link>https://libgeos.org/usage/install/</link>
+      <pubDate>Mon, 04 Oct 2021 13:44:59 -0700</pubDate>
+      
+      <guid>https://libgeos.org/usage/install/</guid>
+      <description>Red Hat Ubuntu Debian Amazon Linux Homebrew Macports Red Hat There is a GEOS package in the EPEL (Extra Packages for Enterprise Linux) repository.
+# Add the EPEL repository yum -y install epel-release # Install the GEOS runtime and development packages rpm -Uvh geos geos-devel Ubuntu The Ubuntu GIS project maintains a collection of repositories with builds of common open source geospatial projects, including GEOS.
+# Add the Ubuntu GIS PPA sudo apt-get install python-software-properties sudo add-apt-repository ppa:ubuntugis/ppa # Install the packages sudo apt-get install geos Debian The Debian GIS project maintains GEOS packages and pushes them into the appropriate Debian respositories.</description>
+    </item>
+    
+    <item>
+      <title>Download and Build</title>
+      <link>https://libgeos.org/usage/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://libgeos.org/usage/download/</guid>
+      <description>Download Project Release Release Date First Release Final Release Download Link Changes 3.11.2 2023/03/16 2022/07/01 2026/07/01 geos-3.11.2.tar.bz2 Changes 3.10.5 2023/03/16 2021/10/20 2025/10/20 geos-3.10.5.tar.bz2 Changes 3.9.4 2022/11/14 2020/12/09 2024/12/09 geos-3.9.4.tar.bz2 Changes 3.8.3 2022/06/02 2019/10/10 2023/10/10 geos-3.8.3.tar.bz2 Changes 3.7.5 2022/06/08 2018/09/10 2023/03/31 geos-3.7.5.tar.bz2 Changes 3.6.6 EOL 2023/01/27 2016/10/25 2023/01/27 geos-3.6.6.tar.bz2 Changes 3.5.2 EOL 2019/10/04 2015/08/16 2019/10/04 geos-3.5.2.tar.bz2 Changes If you see EOL next to a released version, it means no security or patch updates will be added to that minor and you should upgrade to a higher release.</description>
+    </item>
+    
+  </channel>
+</rss>
